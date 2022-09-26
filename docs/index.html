@@ -1,8 +1,8 @@
 <!-- 
     NAME: James Vuong
-    CLASS: CPSC 332
-    ASSIGNMENT: HW2
-    LAST MODIFIED: 09/20/2022
+    COURSE: CPSC 332
+    ASSIGNMENT: HW3
+    LAST MODIFIED: 09/26/2022
 -->
 
 <!DOCTYPE html>
@@ -10,51 +10,47 @@
     <head>
         <title>Homework 2 CPSC332</title>
         <link rel="icon" href="favicon.JPG">
-
-        <style>
-            h1 {
-                text-align: center;
-            }
-            table, th, td {
-              border: 2px solid black;
-              border-collapse: collapse
-            }
-        </style>
+        <link rel="stylesheet" href="./stylesheet.css">
     </head>
 
     <body>
-        <header>
+        <div class="navigationArea" id="navigationArea">
+            <header>
+                <nav>
+                    <!-- fix these links, they  -->
+                    <a href="./careerSummary.html">Career Summary</a> | 
+                    <a href="./educationQualifications.html">Education & Qualifications</a> |
+                    <a href="./interestsHobbies.html">Hobbies & Interests</a> <br>
+                </nav>   
+            </header>
+        </div>   
+
+
+        <!-- Profile pic, name and quick summary -->
+        <div class="profileInfo", id="profileInfo">
+            <img src="profile_pic.jfif" width="100" alt="James Vuong Profile Picture" id="profilePicture">
+
             <h1>James Vuong</h1> 
-        </header>   
-        <section class="introduction" id="introduction">  
-            <h2>INTRODUCTION</h2>
-                <img src="profile_pic.jfif" width="100" alt="James Vuong Profile Picture">
-                <h3>Summary</h3>
-                    <p>Computer Science student with knowledge in data structures and algorithms, computer security,
-                        data science, web development, computer architecture, and general IS/IT concepts. I have great 
-                        communication, teamwork, and critical thinking skills that would make me a great addition to
-                        your company. I have helped many clients to improve IT structure and efficiency in a workplace environment.
-                    </p>
-                
-                <h3>Skills</h3>
-                <ul>
-                    <li>HTML/CSS/JavaScript</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C/C++</li>
-                    <li>SQL</li>
-                    <li>Virtualization</li>
-                    <li>Network Systems</li>
-                </ul>
-        </section>
 
-        <footer>
-            <p><a href="./careerSummary.html">Click here</a> to to view Career Summary!</p>
-            <p><a href="./educationQualifications.html">Click here</a> to to view Education & Qualifications!</p>
-            <p><a href="./interestsHobbies.html">Click here</a> to to view Interests & Hobbies! </p>
-        </footer>
+            <p>Computer Science student with knowledge in data structures and sorting algorithms, computer security,
+                data science, web development, computer architecture, and general IS/IT concepts.I have helped many clients to improve IT structure and efficiency in a workplace environment.
+                I'm excited to take on any challenges and opportunities that come my way and would make  a great addition to
+                your company. 
+            </p>
+
+            <!--location, email, phone -->
+            <img id="contactInfo" src="locationPin.png" alt="location icon">Dutch Harbor, Alaska<br>
+            <img id="contactInfo" src="email.png" alt="email icon"> jamesvuong25@gmail.com<br>
+            <img id="contactInfo" src="phone.png" alt="phone icon"> 907.359.6035<br>   
+        </div>
 
 
+         <!-- <div class="mainContent" id="mainContent">
+            <h3>Career Summary</h3>
+         </div> -->
+
+        <!-- <footer>
+        </footer> -->
     </body>
 
 </html>
