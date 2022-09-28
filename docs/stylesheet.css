@@ -7,30 +7,90 @@
 
 
 body {
-    display: grid;
-    /* grid-template-columns: 200px 400px 200px; */
+    margin: 0px auto;
+    max-width: 700px;
+    height: 900px;
+    border: 5px solid black
 }
+
+.navigationArea{
+    background-color:goldenrod;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#container {
+    display: flex;    
+    flex-direction: row;
+    height: 85%;
+    }
 
 .profileInfo {
     text-align: center;
-    width: 250px;
-    font-size:smaller
+    width: 30%;
+    font-size:smaller;
+    background-color:rgb(230, 230, 230);
 }
 
+/*style edits for NAME and POSITION*/
+.profileInfo h1 {
+    color:midnightblue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.profileInfo h2 {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.profileInfo p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background: black;
+    margin-bottom: 10px;
+}
 #profilePicture {
     border: 2px navy solid;
     padding: 5px;
     width: 175px;
     border-radius: 50%; 
+    /* background-color: green; */
 }
 
+/* for icons */
 #contactInfo{
     width:10px;
     flex-basis: 100px;
 }
 
-.mainContent {
-  display: grid
+.CVContent {
+    background-color: deepskyblue;
+    width:70%;
+    /* max-width: 80% of 800px; */
 } 
 
+.CVContent #careerSummary table, th, td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: smaller;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.CVContent #educationQualifications table, th, td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: smaller;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.CVContent #interestHobbies ol{
+    column-count: 2;
+}
 

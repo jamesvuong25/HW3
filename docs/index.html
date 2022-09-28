@@ -14,65 +14,131 @@
     </head>
 
     <body>
-        <!-- <div class="navigationArea" id="navigationArea">
+        <!-- NAVIGATION IS NOT PART OF FLEXBOX -->
+        <div class="navigationArea" id="navigationArea">
             <header>
                 <nav>
-
                     <a href="./careerSummary.html">Career Summary</a> | 
                     <a href="./educationQualifications.html">Education & Qualifications</a> |
                     <a href="./interestsHobbies.html">Hobbies & Interests</a> 
-                    <p></p>
                 </nav>   
             </header>
-        </div>   
-
-        <div class="profileInfo", id="profileInfo">
-            <img src="profile_pic.jfif" width="100" alt="James Vuong Profile Picture" id="profilePicture">
-
-            <h1>James Vuong</h1> 
-            <p>Computer Science student with knowledge in data structures and sorting algorithms, computer security,
-                data science, web development, computer architecture, and general IS/IT concepts. I have helped many clients to improve IT structure and efficiency in a workplace environment.
-                I'm excited to take on any challenges and opportunities that come my way and would make  a great addition to
-                your company. 
-            </p>
-
-            <img id="contactInfo" src="locationPin.png" alt="location icon">Dutch Harbor, Alaska<br>
-            <img id="contactInfo" src="email.png" alt="email icon"> jamesvuong25@gmail.com<br>
-            <img id="contactInfo" src="phone.png" alt="phone icon"> 907.359.6035<br>   
         </div>
 
+        <div id="container">
 
-         <div class="mainContent" id="mainContent">
-            <div>
-                <h3>Career Summary</h3>
-            </div>
-
-            <div>
-                <h3>Education & Qualifications</h3>
-            </div>
-
-            <div>
-                <h3>Interests & Hobbies</h3>
-            </div>
-
-         </div> -->
-
-         <div class="navigationArea" id="navigationArea">
-            Navigation/Header
-         </div>
-
-         <div id="container">
             <div class="profileInfo" id="profileInfo">
-                Profile Info
+                <br>
+                <img src="profile_pic.jfif" width="100" alt="James Vuong Profile Picture" id="profilePicture">
+
+                <h1>James Vuong</h1> 
+                <h2>Student</h2>
+                <hr>
+
+                <p>Computer Science student with knowledge in data structures and sorting algorithms, computer security,
+                    data science, web development, computer architecture, and general IS/IT concepts. I have helped many clients to improve IT structure and efficiency in a workplace environment.
+                    I'm excited to take on any challenges and opportunities that come my way and would make  a great addition to
+                    your company. 
+                </p>
+    
+                <img id="contactInfo" src="locationPin.png" alt="location icon">Dutch Harbor, Alaska<br>
+                <img id="contactInfo" src="email.png" alt="email icon"> jamesvuong25@gmail.com<br>
+                <img id="contactInfo" src="phone.png" alt="phone icon"> 907.359.6035<br>   
+                <img id="contactInfo" src="linkedin.png" alt="linkedIn icon">https://www.linkedin.com/in/james-vuong-b09552223/<br>
             </div>
 
             <div class="CVContent">
-                CV Content
-                <div class="CVContent" id="careerSummary">CarSum</div>
-                <div class="CVContent" id="educationQualifications">EdQual</div>
-                <div class="CVContent" id="interestsHobbies">IntHob</div>
+                <div class="CVContent" id="careerSummary">
+                    <table>
+                        <caption>CAREER SUMMARY</caption>
+                        <tr>
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Dates</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>IS Intern</td>
+                            <td>City of Unalaska</td>
+                            <td>06/2022-08/2022</td>
+                            <td>Virtualization concepts, computer networks, servers, and general IT solutions.</td>
+                        </tr>
+                        <tr>
+                            <td>Solid Waste Operator I</td>
+                            <td>City of Unalaska</td>
+                            <td>05/2022-06/2022</td>
+                            <td>Helped manage city landfill. </td>
+                        </tr>
+                        <tr>
+                            <td>IT Job Shadow</td>
+                            <td>Unalaska City School District</td>
+                            <td>01/2020-05/2020</td>
+                            <td>Assisted in managing school network, provided technical assistnace to students.</td>
+                        </tr>
+                        <tr>
+                            <td>Grocery Clerk II</td>
+                            <td>Safeway</td>
+                            <td>Summer 2018, 2019</td>
+                            <td>Stocked frozen groceries, worked check stand, improved store cleanliness, and aided customer questions.</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="CVContent" id="educationQualifications">
+                    <!-- EDUCATION TABLE -->
+                    <table>
+                        <caption>EDUCATION</caption>
+                        <tr>
+                            <th>School</th>
+                            <th>Dates</th>
+                            <th>Awards</th>
+                        </tr>
+                        <tr>
+                            <td>Gonzaga University</td>
+                            <td>09/2020-Present</td>
+                            <td>Dean's List 2020-21, President's List 2021 Fall</td>
+                        </tr>
+                        <tr>
+                            <td>Unalaska City School</td>
+                            <td>08/2016-05/2020</td>
+                            <td>Ranked top of class, Straight 'A' Honor Roll</td>
+                        </tr>
+                    </table>
+            
+                    <!--QUALIFICATION TABLE-->
+                    <table>
+                        <caption>QUALIFICATIONS</caption>
+                        <tr>
+                            <th>Title</th>
+                            <th>Accredited From</th>
+                            <th>Date</th>
+                        </tr>
+                        <tr>
+                            <td>B.S. Computer Science</td>
+                            <td>Gonzaga University</td>
+                            <td>05/2024</td>
+                        </tr>
+                        <tr>
+                            <td>Diploma</td>
+                            <td>Unalaska City School</td>
+                            <td>05/2020</td>
+                        </tr>
+                        <tr>
+                            <td>Lifeguard I</td>
+                            <td>City of Unalaska</td>
+                            <td>10/2016</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="CVContent" id="interestsHobbies">
+                    INTERESTS & HOBBIES
+                </div>
             </div>
+
          </div>
+
+
     </body>
 
 </html>
