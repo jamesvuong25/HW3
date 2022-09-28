@@ -28,7 +28,7 @@ body {
 
 .profileInfo {
     text-align: center;
-    width: 30%;
+    width: 35%;
     font-size:smaller;
     background-color:rgb(230, 230, 230);
 }
@@ -72,7 +72,7 @@ h3 {
 #profilePicture {
     border: 2px navy solid;
     padding: 5px;
-    width: 175px;
+    width: 75%;
     border-radius: 50%; 
     /* background-color: green; */
 }
