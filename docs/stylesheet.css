@@ -9,7 +9,7 @@
 body {
     margin: 0px auto;
     max-width: 700px;
-    height: 900px;
+    height: 100%;
     border: 5px solid black
 }
 
@@ -64,7 +64,8 @@ body {
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
+    margin-left: 22px;
     margin-bottom: 2px;
     color:navy
 }
@@ -88,15 +89,17 @@ h3 {
 
 .CVContent {
     background-color:darkgrey;
-    width:70%;
+    width:90%;
     /* max-width: 80% of 800px; */
 } 
 
-.CVContent table, th, tr, td{
+table, th, tr, td{
     border: 2px solid black;
     /* the line below does nothing if you remove it??*/
     text-align: center;
     font-size: smaller;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 
 #skills ul {
