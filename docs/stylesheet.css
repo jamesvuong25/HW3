@@ -35,7 +35,7 @@ body {
 
 /*style edits for NAME and POSITION*/
 .profileInfo h1 {
-    color:midnightblue;
+    color:navy;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -46,13 +46,27 @@ body {
 .profileInfo p {
     margin-left: 20px;
     margin-right: 20px;
+    /* margin-top: 30px; */
 }
 
-hr {
+.profileInfo hr {
     width: 80%;
     height: 2px;
     background: black;
     margin-bottom: 10px;
+}
+
+.CVContent hr {
+    width: 90%;
+    height: 2px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2px;
+    color:navy
 }
 #profilePicture {
     border: 2px navy solid;
@@ -68,29 +82,29 @@ hr {
     flex-basis: 100px;
 }
 
+#PersonalInfo{
+    margin-top: 90%;
+}
+
 .CVContent {
-    background-color: deepskyblue;
+    background-color:darkgrey;
     width:70%;
     /* max-width: 80% of 800px; */
 } 
 
-.CVContent #careerSummary table, th, td{
+.CVContent table, th, tr, td{
     border: 2px solid black;
+    /* the line below does nothing if you remove it??*/
     text-align: center;
     font-size: smaller;
-    /* margin-left: 15px;
-    margin-right: 15px; */
 }
 
-.CVContent #educationQualifications table, th, td{
-    border: 2px solid black;
-    text-align: center;
-    font-size: smaller;
-    /* margin-left: 15px;
-    margin-right: 15px; */
+#skills ul {
+    column-count: 3;
 }
 
-.CVContent #interestHobbies ol{
-    column-count: 2;
+#interestsHobbiesPics{
+    width:30px;
+    height:30px;
 }
 
