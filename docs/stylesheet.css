@@ -14,7 +14,7 @@ body {
 }
 
 .navigationArea{
-    /* background-color:goldenrod; */
+    background-color: lightgray;
     line-height: 25px;
     width: 100%;
     text-align: center;
@@ -81,9 +81,10 @@ body {
     /* background-color: green; */
 }
 
-/* for icons */
-#contactInfo{
+/* for icons under CONTACT*/
+#PersonalInfo img{
     width:10px;
+    height:10px;
     flex-basis: 100px;
 }
 
@@ -121,7 +122,7 @@ th {
     width: 90%;
 }
 
-#interestsHobbiesPics{
+.interestsHobbies img{
     width:20px;
     height:20px;
 }
