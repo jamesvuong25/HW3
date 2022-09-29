@@ -2,7 +2,7 @@
     NAME: James Vuong
     CLASS: CPSC 332
     ASSIGNMENT: HW3
-    LAST MODIFIED: 09/26/2022
+    LAST MODIFIED: 09/30/2022
 */
 
 
@@ -13,6 +13,7 @@ body {
     border: 5px solid black;
 }
 
+/* header styling */
 .navigationArea{
     background-color: lightgray;
     line-height: 25px;
@@ -24,8 +25,9 @@ body {
     display: flex;    
     flex-direction: row;
     height: 85%;
-    }
+}
 
+ /* Right content general styling */
 .profileInfo {
     text-align: center;
     width: 35%;
@@ -58,6 +60,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* LINES in CV Content Styling */
 .CVContent hr {
     width: 91%;
     height: 2px;
@@ -67,12 +70,15 @@ body {
     margin-top: 0%;
 }
 
+/* CV Section Headers */
 .CVContent h3 {
     text-align: left;
     margin-left: 22px;
     margin-bottom: 2px;
     color:navy
 }
+
+/* Profile picture styling */
 #profilePicture {
     border: 2px navy solid;
     padding: 5px;
@@ -88,6 +94,7 @@ body {
     flex-basis: 100px;
 }
 
+/* PROFILE and CONTACT headers */
 #profileInfo h3{
     text-align: left;
     margin-left: 10%;
@@ -99,6 +106,7 @@ body {
     width:90%;
 } 
 
+/* for tables in CV Content */
 table, th, td{
     border: 2px solid black;
     text-align: center;
@@ -108,20 +116,24 @@ table, th, td{
 
 }
 
+/* to alternate colors for table rows */
 tr:nth-child(odd) {
     background-color:lightgray;
 }
 
+/* Table Header color styling */
 th {
     background-color: rgb(151, 187, 248);
 }
 
+/* SKILLS unordered list styling */
 #skills ul {
     column-count: 3;
     list-style-position: inside;
     width: 90%;
 }
 
+/*Interests & Hobbies images styling */
 .interestsHobbies img{
     width:20px;
     height:20px;
