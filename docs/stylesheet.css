@@ -13,12 +13,26 @@ body {
     border: 5px solid black;
 }
 
+
 /* header styling */
 .navigationArea{
     background-color: lightgray;
-    line-height: 25px;
+    line-height: 0px;
     width: 100%;
     text-align: center;
+}
+
+#cssLogo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: -300px;
+}
+
+#navigationLinks {
+    position: relative;
+    top: -20px;
 }
 
 #container {
