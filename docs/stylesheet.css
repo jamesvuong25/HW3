@@ -23,16 +23,17 @@ body {
 }
 
 #cssLogo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: relative;
     top: 8px;
     left: -300px;
+    border-radius: 45%;
 }
 
 #navigationLinks {
     position: relative;
-    top: -20px;
+    top: -25px;
 }
 
 #container {
