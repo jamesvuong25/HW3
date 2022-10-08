@@ -1,4 +1,4 @@
 # HW3
 CPSC 332 HW3
 
-This repository contains files that are used to create a CV from scratch.
+This repository contains my resume as of 10/01/2022 that was made using HTML and CSS.
